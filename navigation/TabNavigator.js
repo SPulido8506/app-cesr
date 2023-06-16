@@ -18,7 +18,7 @@ const BottomTabNavigator = () => {
         tabBarIcon: ({ focused, color, size }) => {
           let iconName;
           if (route.name === "HomeTab") {
-            iconName = focused ? "people-outline" : "arrow-both";
+            iconName = focused ? "home-outline" : "home";
           } else if (route.name === "UsuariosTab") {
             iconName = focused ? "people-outline" : "people";
           } else if (route.name === "EmpleadosTab") {
